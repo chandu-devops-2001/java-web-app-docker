@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: javawebapp-ENVIRONMENT-BUILD_NUMBER
-        image: IMAGE
+        image: chanduswarudocker/java-web-app:3
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
